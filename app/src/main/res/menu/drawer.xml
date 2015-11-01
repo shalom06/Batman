@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ques"
+            android:checked="false"
+            android:icon="@drawable/ic_inbox_black"
+            android:title="Submit Question" />
+
+        <item
+            android:id="@+id/starred"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Your Answers" />
+
+
+
+        <item
+            android:id="@+id/contact"
+            android:checked="false"
+            android:icon="@drawable/ic_drafts_black"
+            android:title="Contact us" />
+
+
+    </group>
+</menu>
